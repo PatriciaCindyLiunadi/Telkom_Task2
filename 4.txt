@@ -1,0 +1,5 @@
+Output dari alert adalah 5 karena ketika function example dipanggil lalu mendefinisikan function dummy yang menghasilkan return 5 lalu mendefinisikan kembali function dummy yang menghasilkan return 2.
+
+Namun, karena pemanggilan dummy terakhir terletak di dalam function example sebelum function dummy yang pertama maka pemanggilan dummy akan kembali ke return 5.
+
+Sehingga ketika example dipanggil, nilai yang direturn oleh dummy adalah 5
